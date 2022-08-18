@@ -1,0 +1,21 @@
+.Container,ul{
+    background-color: rgb(21, 71, 1);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.region{
+    margin-left: 20px;
+}
+.title{
+    align-items: center;
+    position: fixed;
+    font-size: 2rem;
+    margin: 8px;
+    color: rgb(180, 172, 6);
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}

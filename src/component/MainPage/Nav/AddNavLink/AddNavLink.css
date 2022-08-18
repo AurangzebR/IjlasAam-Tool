@@ -1,0 +1,48 @@
+.alert{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 1;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+.container{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black;
+    border-radius:10px 10px 0px 0px;
+}
+.title{
+    color:white;
+
+    padding: 18px;
+}
+
+.close-button{
+    padding: 8px;
+    
+}
+.form{
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    border-radius:0px 0px 10px 10px;
+}
+.form .input,button{
+    padding: 10px;
+   
+}
+.form input{
+    font-size: 2rem;
+}
+.submit-button{
+    width: fit-content;
+    
+    
+}

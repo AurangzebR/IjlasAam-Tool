@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icons{
+    margin-right: 8px;
+   
+}
+.nav-icons .list-icon li{
+    padding: 8px
+}
+.nav-icons .list-icon li:hover{
+background-color: rgb(5, 21, 239);
+color: white;
+font-size: 1.5rem;
+border-radius: 10px;
+
+}
+.iconic{
+    display: none;
+}
+
+@media (max-width:767px) {
+    .nav-icons{
+        display: none;
+    }
+  .iconic{
+       display:flex;
+       justify-content:end;
+}
+    .dropdown-content{
+        display: none;
+        position:absolute;
+        margin-top: 30px;
+        background-color: white;
+        min-width: 300px;
+        z-index: 1;
+        border-radius: 15px;
+    }
+    
+    .dropdown-content ul li{
+        margin: 8px;
+   list-style: none;
+   font-size: larger;
+   cursor: pointer;
+   text-align: left;
+    }
+    .dropdown-content ul li:hover{
+        background-color: rgb(5, 21, 239);
+        border-radius: 10px;
+        font-size: 1.5rem;
+        color: white;
+        padding-left:8px;
+        padding-right: 8px;
+        
+    }
+    .iconic:hover .dropdown-content{
+        display: block;
+    }
+    .iconic h1{
+        padding-right: 20px;
+    }
+    
+    .named{
+        display: flex;
+        justify-content:center;
+        
+    }
+  
+}
+
+.aur{
+    padding: 8px;
+}
+
+.icon-h1{
+    font-size: large;
+    border: 2px solid black;
+}
+.list-icon{
+    display:inline-flex;
+    justify-content: space-between;
+    padding: 8px;
+
+}
+.list-icon li{
+    margin: 8px;
+   list-style: none;
+   font-size: larger;
+   cursor: pointer;
+}
+.add-more{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.add-more:hover{
+font-size: 1.5rem;
+}
+.this-badge{
+    display: flex;
+    position:absolute;
+    top:2%;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 50%;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    
+}
+

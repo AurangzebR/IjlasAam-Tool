@@ -1,0 +1,23 @@
+.container{
+    
+    background-color:white;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+width:15%;
+box-shadow: 0 2px 15px 0;
+}
+.mid{
+    width: 68%;
+    box-shadow: 0 2px 15px 0;
+    height: 400px;
+}
+.right{
+    width: 15%;
+    box-shadow: 0 2px 15px 0;
+}
